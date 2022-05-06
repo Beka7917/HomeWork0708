@@ -25,14 +25,4 @@ print(namesSorted)
 
 
 
-var array = [3, 5, 7, 9, 11]
 
-var sqrtOfNumbers = array.map { $0 * $0
-}
-let result1 = sqrtOfNumbers
-print(sqrtOfNumbers)
-
-for sqrt in array {
-    let resultSqrt = sqrt * sqrt
-    print(resultSqrt)
-}
